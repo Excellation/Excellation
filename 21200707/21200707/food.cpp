@@ -7,15 +7,15 @@ void food_menu_c()
 	printf("小食\n");
 	for (int i = 0; i < 70; i++)
 		printf("*");
-	printf("\n（1）马苏里拉芝士 38元/份\t\t\t");
+	printf("\n（1）马苏里拉芝士 38元/份\t");
 	printf("（2）佛卡恰（意大利特色火饼）28元/份\n");
 	printf("（3）熏三文鱼 58元 / 份\t\t");
 	printf("（4）马卡龙  28元 / 份\n");
-	printf("（5）巧克力慕斯蛋糕 18元 / 份\t\t\t");
+	printf("（5）巧克力慕斯蛋糕 18元 / 份\t");
 	printf("（6）手撕牦牛肉干 48元 / 份\n");
 	printf("（7）炸食拼盘 68元 / 份\t\t");
 	printf("（8）水果拼盘 48元 / 份\n");
-	printf("（9）西芹佐法式奶酪酱沙拉	 48元 / 份\n");
+	printf("（9）西芹佐法式奶酪酱沙拉	 48元 / 份\t\t\n");
 	for (int i = 0; i < 70; i++)
 		printf("*");
 	printf("\n请输入序号(以0结束）：");
