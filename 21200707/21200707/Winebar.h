@@ -1,6 +1,7 @@
 #ifndef WINEBAR_H_
 #define WINEBAR_H_
 #include<stdio.h>
+#include<windows.h>
 #include<time.h>
 /*定义中文函数*/
 int Chinese(int);
