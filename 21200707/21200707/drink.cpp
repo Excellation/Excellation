@@ -64,11 +64,11 @@ void drink_menu_e()
 	printf("Drinks\n");
 	for (int i = 0; i < 70; i++)
 		printf("*");
-	printf("\n（1）Mojito ￥50/cup\t\t\t");
+	printf("\n（1）Mojito ￥50/cup\t\t\t\t");
 	printf("（2）Sprite whisky ￥479/cup\n");
-	printf("（3）Carlsberg 1644 white beer ￥35/bottle\t\t");
+	printf("（3）Carlsberg 1644 white beer ￥35/bottle\t");
 	printf("（4）Hennessy ￥658/bottle\n");
-	printf("（5）long island ice tea ￥60/cup\t\t\t");
+	printf("（5）long island ice tea ￥60/cup\t\t");
 	printf("（6）Veuve Clicquot ￥680/bottle\n");
 	printf("（7）Grey goose vodka ￥200/bottle\t\t");
 	printf("（8）Remy Martin XO ￥235/bottle\n");
@@ -77,6 +77,7 @@ void drink_menu_e()
 		printf("*");
 	printf("\n please enter serial number (end with 0)：");
 }
+
 int drinks_e(int num) {
 	//printf("已点酒水：\n");建议主函数第一次调用本函数之前，先打印这行代码，便于顾客观看
 	int price = 0;

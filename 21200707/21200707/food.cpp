@@ -49,9 +49,9 @@ void food_menu_e()
 		printf("*");
 	printf("\n£¨1£©mozzarella 38 / share\t\t\t");
 	printf("£¨2£©focaccia 28 / share\n");
-	printf("£¨3£©saumon fum¨¦ 58 / share\t\t");
+	printf("£¨3£©saumon fum¨¦ 58 / share\t\t\t");
 	printf("£¨4£©macaron  28 / share\n");
-	printf("£¨5£©Chocolate Mousse Cake 18 / share\t\t\t");
+	printf("£¨5£©Chocolate Mousse Cake 18 / share\t\t");
 	printf("£¨6£©Hand shredded yak jerky 48 / share\n");
 	printf("£¨7£©Fried food platter 68 / share\t\t");
 	printf("£¨8£©Fruit platter 48 / share\n");
