@@ -40,6 +40,26 @@ int food_c(int xuhao) {
 	return PRICE;
 }
 /*Ó¢ÎÄ°æ*/
+void food_menu_e()
+{
+	for (int i = 0; i < 32; i++)
+		printf(" ");
+	printf("Ð¡Ê³\n");
+	for (int i = 0; i < 70; i++)
+		printf("*");
+	printf("\n£¨1£©mozzarella 38 / share\t\t\t");
+	printf("£¨2£©focaccia 28 / share\n");
+	printf("£¨3£©saumon fum¨¦ 58 / share\t\t");
+	printf("£¨4£©macaron  28 / share\n");
+	printf("£¨5£©Chocolate Mousse Cake 18 / share\t\t\t");
+	printf("£¨6£©Hand shredded yak jerky 48 / share\n");
+	printf("£¨7£©Fried food platter 68 / share\t\t");
+	printf("£¨8£©Fruit platter 48 / share\n");
+	printf("£¨9£©Celery with French cheese salad 48 / share\n");
+	for (int i = 0; i < 70; i++)
+		printf("*");
+	printf("\n please enter serial number (end with 0)£º");
+}
 int food_e(int xuhao) {
 	int PRICE = 0;
 	switch (xuhao) {
