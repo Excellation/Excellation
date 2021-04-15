@@ -101,7 +101,7 @@ int English(int i)
 				if (p->price > 9 || p->price < 0)
 					printf("\aThere is no£¨%d£©choice\n", p->price);
 				else
-					total += food_c(p->price);
+					total += food_e(p->price);
 				p = p->next;
 			}
 		else
@@ -110,7 +110,7 @@ int English(int i)
 				if (p->price > 9 || p->price < 0)
 					printf("\aThere is no£¨%d£©choice\n", p->price);
 				else
-					total += drinks_c(p->price);
+					total += drinks_e(p->price);
 				p = p->next;
 			}
 		p = head;
